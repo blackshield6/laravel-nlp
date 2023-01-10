@@ -14,6 +14,9 @@
             "email": "didier@lvlup.fr"
         }
     ],
+    "require": {
+        "lvlup-dev/laravel-url": "@dev"
+    },
     "extra": {
         "laravel": {
             "providers": [

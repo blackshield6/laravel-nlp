@@ -4,12 +4,60 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e92a140cc41a02c6b16ee67a656757eb",
-    "packages": [],
+    "content-hash": "823ccdd671bf0cc0db0c17664a9baa51",
+    "packages": [
+        {
+            "name": "lvlup-dev/laravel-url",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lvlup-dev/laravel-url.git",
+                "reference": "00f389f6a8c36f209d2e571fbf8400b4d8d10afc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lvlup-dev/laravel-url/zipball/00f389f6a8c36f209d2e571fbf8400b4d8d10afc",
+                "reference": "00f389f6a8c36f209d2e571fbf8400b4d8d10afc",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LvlupDev\\Url\\UrlServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LvlupDev\\Url\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Didier Sampaolo",
+                    "email": "didier@lvlup.fr"
+                }
+            ],
+            "description": "Methods to work with URLs and text documents on the web.",
+            "support": {
+                "issues": "https://github.com/lvlup-dev/laravel-url/issues",
+                "source": "https://github.com/lvlup-dev/laravel-url/tree/main"
+            },
+            "time": "2023-01-10T13:49:26+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "lvlup-dev/laravel-url": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
