@@ -1,0 +1,24 @@
+{
+    "name": "lvlup-dev/laravel-nlp",
+    "description": "Natural Language Processing (NLP) for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LvlupDev\\Nlp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Didier Sampaolo",
+            "email": "didier@lvlup.fr"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LvlupDev\\Nlp\\NlpServiceProvider"
+            ]
+        }
+    }
+}
