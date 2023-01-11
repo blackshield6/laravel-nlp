@@ -14,7 +14,7 @@ class Text
 
     private function removePunct(): self
     {
-        $forbiddenChars = ',.;:!?()[]{}\'"«»“”|–—’‘…©¯ツ→✓®`‘’';
+        $forbiddenChars = ',.;:!?()[]{}\'"«»“”|–—’‘…©¯ツ→✓®`‘’·/';
         $remove = mb_str_split($forbiddenChars);
 
         $this->text = str_replace($remove, ' ', $this->text);
